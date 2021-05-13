@@ -13,7 +13,6 @@ const Card = styled.div`
 `;
 
 const GetName = (props) => {
-  // const [showModal, setShowModal] = useState(false);
   const nameInputRef = useRef();
   const [visibleModal, setVisibility] = useState(false);
 

@@ -73,28 +73,4 @@ const Modal = (props) => {
   );
 };
 
-// const Modal = (props) => {
-//   return (
-//     <React.Fragment>
-//       <ModalStructure
-//         title={props.title}
-//         message={props.message}
-//         onConfirm={props.onConfirm}
-//       />
-
-//       <ModalStructure
-//         title={props.title}
-//         message={props.message}
-//         onConfirm={props.onConfirm}
-//       />
-
-//       <ModalStructure
-//         title={props.title}
-//         message={props.message}
-//         onConfirm={props.onConfirm}
-//       />
-//     </React.Fragment>
-//   );
-// };
-
 export default Modal;

@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+//import ModalStructure from './components/widgets/modal';
+
+import GetName from './components/UserInteraction/getName';
+import ButtonModal from "./components/UserInteraction/buttonInsideModal";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+  <GetName />
+  <ButtonModal/>
+  </React.Fragment>
+
   );
 }
 
